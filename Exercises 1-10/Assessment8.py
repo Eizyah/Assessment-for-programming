@@ -1,0 +1,9 @@
+print("\n----------EXERCISE 8---------\n")
+
+Names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]        #Declares a list of name
+
+Search = input("Enter Name: ")                              #Ask the user for input that searches for the name in the list
+if Search in Names:                                         #Searches for the name in the list
+    print(f"The name {Names} is found.")                    #If name is found in the list, prints "The name is found."
+else:                                                       #Else if name is not found, prints "Name not found."
+    print(f"{Names}Name was not found in the list.")
