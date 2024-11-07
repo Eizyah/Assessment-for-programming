@@ -1,0 +1,21 @@
+print("\n----------EXERCISE 4---------\n")
+
+Quiz= {'France': 'Paris',                                   #declaring a dictionary
+       'Belgium': 'Brussels',
+       'Denmark': 'Copenhagen',
+       'Finland': 'Helsinki',
+       'Germany': 'Berlin',
+       'Greece': 'Athens',
+       'Iceland': 'Reykjavik',
+       'Ireland': 'Dublin',
+       'Italy': 'Rome',
+       'Netherlands': 'Amsterdam'}                          #Writing the country and the capitals.
+def question(country, answer):                              #defining the key and the value in the dictionary.
+    ask = input(f'What is the capital of {country}?  ')     #asks the user to input the right answer.
+    if ask.lower() == answer.lower():                       #sets a condition that if the capital of the country is right.
+        print("Correct!")                                   #prints "correct!"    
+    else: 
+        print(f"Incorrect. The answer is {answer}.")        #if not right, prints "Incorrect." and says the correct answer.
+   
+for country, answer in Quiz.items():                        #Makes a for loop for Quiz.
+    question(country, answer)                               #uses the def function to ask the questions.
