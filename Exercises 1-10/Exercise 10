@@ -1,12 +1,12 @@
 print("\n----------EXERCISE 10---------\n")
 
-def odd_or_even(number):
-    if number % 2 == 0:
+def odd_or_even(number):                    #creates a function to determine if the number is odd or even.
+    if number % 2 == 0:                     #The formula to check whether its odd or even.
         return "Even"
     else:
         return "Odd"
 
 
-number = int(input("Input a number: "))
-answer = odd_or_even(number)
-print(answer)
+number = int(input("Input a number: "))     #Ask the user to input a number.
+answer = odd_or_even(number)                #Creates another variable that uses the function to determine whether the inputted number is an odd or an even number.
+print(answer)                               #Prints the answer either Odd or Even.
