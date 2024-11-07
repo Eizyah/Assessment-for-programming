@@ -1,0 +1,17 @@
+print("\n----------EXERCISE 6---------\n")
+
+Attempt = 5                                     #Declares the variables.
+remaining = 0
+Correctpin = 12345
+while remaining < Attempt:                      #Uses while function to loop task.
+    pin = int(input("Enter Pin:  "))            #Asks the user for the pin.
+    if pin == Correctpin:                       #If the correct pin is inputted right.
+        print("Correct Pin!")                   #prints correct pin.
+        break
+    else: 
+        remaining += 1
+        remaining_attempts = Attempt - remaining
+        if remaining_attempts > 0:
+            print(f"Incorrect password. Remaining attempts: {remaining_attempts}")         #If wrong pin is inputted, prints incorrect password and the remaining attempts.
+else:
+    print("Maximum attempts reached. Authorities have been alerted")
