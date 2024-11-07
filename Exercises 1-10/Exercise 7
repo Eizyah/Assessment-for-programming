@@ -1,24 +1,24 @@
 print("\n-------Increments of 1 0-50-------\n")
 
-for i in range(0, 51):
-    print(i)
+for i in range(0, 51):              #Declares a for loop that counts to 0 - 50
+    print(i)                        #prints the for loop
 
 print("\n-------Decrements of 1 50-0-------\n")
 
-for o in range(50, -1, -1):
-    print(o)
+for o in range(50, -1, -1):         #Declares a for loop that counts to 50 - 0
+    print(o)                        #Prints the for loop in a descending order
 
 print("\n-------Increments of 1 30-50-------\n")
 
-for i in range(30,51):
-    print(i)
+for i in range(30,51):              #Declares a for loop that counts from 30 - 50
+    print(i)                        #Prints the for loop
 
 print("\n-------Decrements of 2 50-10-------\n")
 
-for o in range(50, 8, -2):
-    print(o)
+for o in range(50, 8, -2):          #Declares a for loop that counts from 50 - 10 with a gap of 2
+    print(o)                        #prints the for loop
 
 print("\n-------Increments of 5 100-200-------\n")
 
-for i in range(100, 201, 5):
-    print(i)
+for i in range(100, 201, 5):        #Declares a for loop that counts from 100 - 200 with an increment of 5
+    print(i)                        #prints the for loop
