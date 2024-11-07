@@ -1,0 +1,11 @@
+print("\n----------EXERCISE 3---------\n")
+
+name = input("Enter your first and second name:  ")     #ask the user for a name input.
+hometown = input("Enter your hometown:  ")              #asks the user for their hometown input.
+age = input("Enter your age:  ")                        #asks the user for their age.
+
+dictionary = {'Name': name,                             #Declaring a dictionary with 3 keys called "Name", "Hometown",
+              'Hometown': hometown,                     #and Age.
+              'Age': age}
+
+print(f"Name: ", dictionary["Name"], "\tHometown: ", dictionary["Hometown"], "\tAge: ", dictionary["Age"])      #prints the user inputs from name to age
