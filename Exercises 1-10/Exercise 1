@@ -1,0 +1,8 @@
+print("\n----------EXERCISE 1---------\n")
+
+word1 = "Coding" #variable 1
+word2 = "is"    #variable 2
+word3 = "Cool"  #variable 3
+
+print(word1 + word2 + word3) #prints and show the message in the screen saying "Coding is Cool"
+
