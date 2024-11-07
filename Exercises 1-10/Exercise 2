@@ -1,0 +1,6 @@
+print("\n----------EXERCISE 2---------\n")
+
+a = 8                      #declaring the variable "a" with an integer of 8.
+b = 10                     #declaring the variable "b" with an integer of 10.
+c = a + b                  #declaring the third variable that stores both the a and b variable and sums them up.
+print(f"sum is: ", c)      #printing the sum.
